@@ -1,0 +1,44 @@
+h1 {
+    color: orange;
+}
+h2 {
+    color: red;
+}
+p{
+    color: blue;
+    font-size: 20px;
+}
+img{
+    width: 400px; height: 300px;
+}
+a{
+    color: white;
+}
+body{
+    background-color: rgb(182, 250, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#drugi_naslov{
+    text-align: center;
+}
+.paragrafi{
+    text-align: right;
+    font-size: 24px;
+}
+#slika_logo_it_bootcamp{
+    border: 2px dashed;
+}
+h1:nth-child(4){
+    text-align: center;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+li:nth-child(odd){
+    color: green;
+}
+a.visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}

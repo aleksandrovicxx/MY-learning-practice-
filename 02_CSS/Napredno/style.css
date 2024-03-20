@@ -1,0 +1,99 @@
+p {
+    color: grey;
+}
+
+
+
+/* Kada više elemenata imaju isto svojstvo*/ 
+h3, h4{
+    color: orange;
+}
+
+
+
+
+
+/* Pristupšanje klasi: */
+.desno_poravnjanje {
+    text-align: right;
+}
+.crveni_tekst{
+    color: red;
+}
+.drugi, #treci{
+    background-color: yellow;
+}
+
+
+
+
+/* Pristupanje ID-u */
+
+#treci{
+    font-style: italic;
+    border: solid;
+    border-bottom: double 5px rgb(200, 100, 100);
+    border-radius: 100%;
+}
+
+
+/* Prioritet selektora (ELEMENT < KLASE < ID < INLINE < !IMPORTANT)*/
+li{
+    color: purple;     /*najmanje*/
+}
+
+.stavka{
+    color: blue;
+}
+
+#prva_stavka {
+    color: orange; /* Najviše */
+}
+#cetvrta_stavka{
+    color: beige !important ;
+}
+/* Kombinator razmak - svi potomci u div tagu koji su p tag*/
+div p{
+    color: aquamarine;
+}
+/* Kombinator > - svi potomci u div ragu čiji su ........ */
+
+div>p {
+    border: 1px solid green;
+}
+
+.podp>p{
+    border: 1px solid orange;
+}
+
+/* stilizacija linka /PSEUDO KLASE */
+
+a {
+    color: lime;
+    text-decoration: none;
+}
+a:visited {
+    color: brown;
+}
+a:hover{
+    background-color: yellow;
+}
+
+/* PSeudo selektori - Svaki prvi potomak koji je tipa paragraf*/
+
+p:first-child{  /*Svaki paragraf koji je prvo dete nečega biće bold*/
+    font-weight: bold;
+}
+p:last-child{
+    font-weight: bold;
+}
+li:nth-child(3n){
+    font-weight: bold;
+}
+
+li:nth-child(3){
+    text-decoration: line-through;
+}
+li:hover{
+    background-color: aquamarine;
+}
