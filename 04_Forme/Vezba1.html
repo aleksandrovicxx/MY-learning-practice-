@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Vezba2</title>
+        <link rel="stylesheet" href="style2.css"/>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend> Form Validation </legend>
+
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="username">Username:</label></td>
+                        <td><input type="text" id="username" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" /></td>
+                    </tr>
+                
+                    <tr>
+                        <td><label for="rppassword">Re-type password:</label></tr>
+                        <td><input type="password" id="rppassword"></tr>
+                    </tr>
+                
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <div>
+                            <td>
+                                <input type="radio" name="gender" id="male" value="male" />
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female" value="female" />
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="other" value="other" />
+                                <label for="other">Other</label>
+                            </td>    
+                        </div>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Programming skill:</label></td>
+                        <div>
+                            <td>
+                                <input type="checkbox" name="skills" id="java" value="java">
+                                <label for="java">Java</label>
+                                <input type="checkbox" name="skills" id="android" value="android">
+                                <label for="android">Android</label>      
+                                <input type="checkbox" name="skills" id="ruby" value="ruby">
+                                <label for="ruby">Ruby</label>
+                                <input type="checkbox" name="skills" id=".net" value=".net">
+                                <label for=".net">.Net</label>        
+                            </td>
+                        </div>
+                    </tr>      
+                                
+                    <tr>
+                        <td><label for="contact">Contact no::</label></td>
+                        <td><input type="number" id="contact" maxlength="10"></td> <!--???-->
+                    </tr>
+                
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                
+                    <tr>
+                        <td><label>College:</label></td>
+                        <td>
+                            <select name="College" id="college">
+                                <option value="ITBootcamp">ITBootcamp</option>
+                                <option value="Neka druga">Neka druga</option>
+                                <option value="Bez škole">Bez škole</option>
+                            </select>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td></td>
+                        <td><input type="button" value="submit"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

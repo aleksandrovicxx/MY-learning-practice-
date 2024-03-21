@@ -1,0 +1,32 @@
+/* 
+    1) HTML: parent-child struktura
+    2) children: flaot
+    3) parent: overflow
+
+*/
+
+
+div{
+    background-color: brown;
+    overflow: hidden;
+}
+p{ /* ovo su children */
+    background-color: aquamarine;
+    width: 250px;
+    height: 50px;
+    float: right;
+    border: 2px solid blue; 
+}
+
+
+p:nth-child(2n){
+    float: left;
+}
+
+/*
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+} */

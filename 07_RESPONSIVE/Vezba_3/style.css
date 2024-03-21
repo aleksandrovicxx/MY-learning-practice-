@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    float: left;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+nav ul{
+    list-style: none;
+    border-color: aqua;
+}
+
+nav ul li{
+    background-color: rgb(2, 185, 185);
+    height: 45px;
+    border: 1px solid aqua;
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+nav ul li a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: rgb(1, 134, 134);    
+}
+aside{
+    background-image: linear-gradient(rgb(2, 185, 185), white);
+    font-size: 24px;
+}
+.opis{
+    background-image: linear-gradient(aqua, white);
+    font-size: 22px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 500px){
+    [class*="col-"] {
+    width: 100%;    
+    }
+}
+ @media only screen and (max-width: 500px){
+    [class*="col-"]{
+        width: 100%;
+    } 
+ }
+
+-----------------ZA DESKTOP---------------
+
+@media only screen and (min-width: 1000px){
+    [class*="col-"]{
+        float: left;
+        
+    }
+}
+
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
