@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT LISTENERI</title>
+</head>
+<body>
+    <button id="hello">Klikni za hello</button>
+    <button id="broji">Broji</button>
+    <p id="ispisbroja"></p>
+
+    <button id="btnmin">-</button>
+    <span id="span"> </span>
+    <button id="btnplus">+</button>
+
+    <div>
+        <input type="text" id="tekst">
+        <button id="ispišiTekst">Ispiši</button>
+        <p id="ispisTeksta"></p>
+        Pol:
+        <input type="radio" name="pol" value="muškog" id="muški"> Muški
+        <input type="radio" name="pol" value="ženskog" id="ženski"> Ženski
+        <input type="radio" name="pol" value="neopredeljenog" id="neopredeljen" checked> Neopredeljen 
+    </div>
+    <form>
+        <fieldset>
+            <legend>Zadatak 7</legend>
+            <label for="kvadrat">Kvadriraj ovaj broj:</label>
+            <input type="number" id="kvadrat">
+            <input type="button" id="btnKv" value="Izračunaj"> 
+            <p id="paragraf"> Rezultat je:</p>
+
+            <label for="polovina">Prepolovi ovaj broj:</label>
+            <input type="number" id="polovina">
+            <input type="button" id="btnPolovina" value="Izračunaj">
+            <p id="ParagrafPolovina">Rezultat je: </p>
+
+            <label for="površina">Izračunati površinu kruga za zadati poluprčnik:</label>
+            <input type="number" id="površina">
+            <input type="button" id="btnPovršina" value="Izračunaj"> 
+            <p id="ispisPovršina">Površina kruga je:</p>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
